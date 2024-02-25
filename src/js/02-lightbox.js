@@ -20,5 +20,5 @@ function createGalleryItem(array) {
 const photosMarkup = createGalleryItem(galleryItems);
 galleryContainer.insertAdjacentHTML("beforeend", photosMarkup);
 
-const galleryLabel = new SimpleLightbox(".gallery a", { captionsData: "alt", captionDelay: 250 });
-galleryLabel.on("show.simplelightbox");
+const galleryHandler = new SimpleLightbox(".gallery a", { captionsData: "alt", captionDelay: 250 });
+galleryHandler.on("show.simplelightbox");
