@@ -7,27 +7,39 @@
     <title>SimpleLightbox library</title>
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/styles.css" />
+
+        <!-- Add Lightbox library styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+      integrity="sha256-r7Neol40GubQBzMKAJovEaXbl9FClnADCrIMPljlx3E=" crossorigin="anonymous">
+
  
     <!-- Add SimpleLightbox library styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.1.0/simple-lightbox.min.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.css"
+      integrity="sha512-Oi2rb7RCg9JJzHCNFHsZgzlreLA/C4mNWCDMGHwhzVtPrQJey0zKnc9t8gwO5uzPJQNc9rC3zJksZb4/rKY+9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Add SimpleLightbox library script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.1.0/simple-lightbox.min.js"></script>
-  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js"
+      integrity="sha512-/4kQE5RJQYHRhUiK+CZS8UhaJTnLmQkDuf8lOhiP2xLdjthA/rm0VqqWjcyelIx+NDyNHFmtqvuIgOFQnI34WA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
 
     <!-- Add gallery items to this list -->
-    <ul class="gallery">
-      <li class="gallery__item">
-        <a class="gallery__link" href="large-image.jpg">
-          <img class="gallery__image" src="https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg"
-            alt="Hokkaido Flower" />
-        </a>
-      </li>
-    </ul>
+    <ul class="gallery"></ul>
 
-    <script src="js/02-lightbox.js" type="module"></script>
+
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js"
+      integrity="sha512-/4kQE5RJQYHRhUiK+CZS8UhaJTnLmQkDuf8lOhiP2xLdjthA/rm0VqqWjcyelIx+NDyNHFmtqvuIgOFQnI34WA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"
+      integrity="sha256-nMn34BfOxpKD0GwV5nZMwdS4e8SI8Ekz+G7dLeGE4XY=" crossorigin="anonymous"></script>
+
+    <script 
+      src="js/02-lightbox.js" 
+      type="module"></script>
   </body>
 </html>
